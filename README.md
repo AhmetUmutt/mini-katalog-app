@@ -12,7 +12,8 @@ Uygulama, **DummyJSON API** servisini arka planda asenkron olarak tüketerek din
 
 | Giriş Ekranı (Login) | Katalog Listesi (Discover) | Ürün Detay (Detail) | Sepetim (Cart) |
 | :---: | :---: | :---: | :---: |
-| <img src="EKRAN_GORUNTUSU_LINKI_1" width="200" alt="Login"/> | <img src="EKRAN_GORUNTUSU_LINKI_2" width="200" alt="Discover"/> | <img src="EKRAN_GORUNTUSU_LINKI_3" width="200" alt="Detail"/> | <img src="EKRAN_GORUNTUSU_LINKI_4" width="200" alt="Cart"/> |
+| <img width="404" height="858" alt="Image" src="https://github.com/user-attachments/assets/a086c0ab-4043-486e-ad75-2cf0f131f8ad" />
+ | <img width="403" height="858" alt="Image" src="https://github.com/user-attachments/assets/14de674f-b797-4014-a60f-1c1c5371ffb0" /> | <img width="406" height="863" alt="Image" src="https://github.com/user-attachments/assets/79744c51-8e92-41b4-b996-0e9e6e9efdc3" /> | <img width="407" height="863" alt="Image" src="https://github.com/user-attachments/assets/85df958e-72fc-42a6-a2ea-c9a0ff976a24" /> |
 
 ---
 
@@ -100,7 +101,7 @@ Projeyi kendi yerel geliştirme ortamınızda sıfır hata ile ayağa kaldırmak
 
 Öncelikle GitHub üzerindeki bu kaynak kodları yerel diskinize çekmeniz gerekir. Bilgisayarınızda terminali (veya Komut İstemi/PowerShell) açın, projeyi kaydetmek istediğiniz klasöre gidin ve şu komutu yürütün:
 
-```bash
+
 
 git clone [https://github.com/AhmetUmutt/mini-katalog-app.git](https://github.com/AhmetUmutt/mini-katalog-app.git)
 
@@ -116,7 +117,7 @@ Eğer bilgisayarınızda Git kurulu değilse, bu GitHub sayfasının sağ üstü
 
 
 
-Bash
+
 
 cd mini-katalog-app
 
@@ -130,7 +131,7 @@ Projenin internetten veri çekebilmesi ve çalışabilmesi için kullanılan pak
 
 
 
-Bash
+
 
 flutter pub get
 
@@ -152,7 +153,7 @@ Terminale şu komutu yazarak bilgisayarınızın hedef cihazı başarıyla tanı
 
 
 
-Bash
+
 
 flutter devices
 
@@ -166,6 +167,6 @@ Her şey eksiksiz olarak hazırlandığına göre artık projeyi derleme aşamas
 
 
 
-Bash
+
 
 flutter run
