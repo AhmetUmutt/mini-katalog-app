@@ -96,7 +96,7 @@ Projeyi kendi yerel geliştirme ortamınızda sıfır hata ile ayağa kaldırmak
 
 
 
-### Adım 1: Kaynak Kodları Bilgisayarınıza İndirin
+📥 Adım 1: Kaynak Kodları Bilgisayarınıza İndirin
 
 Öncelikle GitHub üzerindeki bu kaynak kodları yerel diskinize çekmeniz gerekir. Bilgisayarınızda terminali (veya Komut İstemi/PowerShell) açın, projeyi kaydetmek istediğiniz klasöre gidin ve şu komutu yürütün:
 
