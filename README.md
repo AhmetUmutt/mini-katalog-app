@@ -33,19 +33,33 @@ Uygulama, **DummyJSON API** servisini arka planda asenkron olarak tüketerek din
 Sektör programlarına uygun, kodun sürdürülebilirliği ve okunabilirliğini artıran temiz bir mimari kullanıldı:
 
 lib/
+
 ├── components/
-│   └── mini_card_tile.dart          # Sepet sayfasındaki tekrarlanan küçük ürün kartları (Clean Code)
+
+│ └── mini_card_tile.dart # Sepet sayfasındaki tekrarlanan küçük ürün kartları (Clean Code)
+
 ├── models/
-│   └── product.dart                 # API'den gelen verileri anlamlı nesnelere dönüştüren Veri Modeli
+
+│ └── product.dart # API'den gelen verileri anlamlı nesnelere dönüştüren Veri Modeli
+
 ├── screens/
-│   ├── cart_screen.dart             # Gelişmiş sepet yönetim ekranı
-│   ├── discover_screen.dart         # GridView ve Arama çubuğunun yer aldığı ana katalog ekranı
-│   ├── login_screen.dart            # Kullanıcı karşılama ve giriş ekranı
-│   └── product_detail_screen.dart   # Teknik özelliklerin (Specifications) listelendiği detay ekranı
+
+│ ├── cart_screen.dart # Gelişmiş sepet yönetim ekranı
+
+│ ├── discover_screen.dart # GridView ve Arama çubuğunun yer aldığı ana katalog ekranı
+
+│ ├── login_screen.dart # Kullanıcı karşılama ve giriş ekranı
+
+│ └── product_detail_screen.dart # Teknik özelliklerin (Specifications) listelendiği detay ekranı
+
 ├── services/
-│   ├── api_service.dart             # HTTP protokolü ile DummyJSON veri çekme servisi
-│   └── local_storage_service.dart   # Cihaz hafızası kalıcı veri yönetimi şablon servisi
-└── main.dart                        # Uygulamanın başlangıç noktası ve tema/renk şeması ayarları
+
+│ ├── api_service.dart # HTTP protokolü ile DummyJSON veri çekme servisi
+
+│ └── local_storage_service.dart # Cihaz hafızası kalıcı veri yönetimi şablon servisi
+
+└── main.dart # Uygulamanın başlangıç noktası ve tema/renk şeması ayarları
+
 
 
 ---
